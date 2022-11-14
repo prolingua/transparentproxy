@@ -16,7 +16,7 @@ module.exports = {
     },
   },
   networks: {
-    localhost: {
+    development: {
       url: 'http://127.0.0.1:8545'
     },
     mainnet: {
@@ -32,7 +32,8 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      ftmTestnet: `${API_KEY}`
+      ftmTestnet: `${API_KEY}`,
+      opera: `${API_KEY}`
     }
   },
   contractSizer: {
