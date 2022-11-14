@@ -18,12 +18,8 @@ API_KEY={the etherscan api key}
 -change the value of PROXY in upgrade_box_v2.js with the address of TransparentProxy
 -run: npx hardhat run --network testnet scripts/upgrade_box_v2.js
 
-#verify and publish Box: npx hardhat verify --network testnet {the address of Box}
+#verify and publish the proxy admin, proxy and implementation: npx hardhat verify --network testnet {the address of Box Proxy}
 
-#verify and publish BoxV2: npx hardhat verify --network testnet {the address of BoxV2}
 
-#verify and publish TransparentProxy: ???
-
-#verify and publish Proxy: ???
 
 
