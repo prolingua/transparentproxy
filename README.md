@@ -4,7 +4,7 @@
 
 #compile: npx hardhat compile
 
-#create .env file with:
++ create .env file with:
 PRIVATE_KEY={the private key of an account}
 API_KEY={the etherscan api key}
 
@@ -18,7 +18,7 @@ API_KEY={the etherscan api key}
 - change the value of PROXY in upgrade_box_v2.js with the address of TransparentUpgradeableProxy
 - run: npx hardhat run --network testnet scripts/upgrade_box_v2.js
 
-#verify and publish the proxy admin, proxy and implementation: npx hardhat verify --network testnet {the address of Box Proxy}
++ verify and publish the proxy admin, proxy and implementation: npx hardhat verify --network testnet {the address of Box Proxy}
 
 
 
